@@ -1,0 +1,230 @@
+Switch Name: N/A
+Serial Number: S124ENTQ22024659
+Model: N/A
+Version: 1
+Ports Information:
+  Port Name: port1
+    VLAN: _default
+    STATUS: up
+    Allowed VLANs: [{'q_origin_key': 'quarantine', 'vlan-name': 'quarantine'}]
+    Untagged VLANs: [{'q_origin_key': 'quarantine', 'vlan-name': 'quarantine'}]
+    MAC Address: 00:00:00:00:00:00
+    Export to: root
+
+  Port Name: port2
+    VLAN: _default
+    STATUS: up
+    Allowed VLANs: [{'q_origin_key': 'quarantine', 'vlan-name': 'quarantine'}]
+    Untagged VLANs: [{'q_origin_key': 'quarantine', 'vlan-name': 'quarantine'}]
+    MAC Address: 00:00:00:00:00:00
+    Export to: root
+
+  Port Name: port3
+    VLAN: _default
+    STATUS: up
+    Allowed VLANs: [{'q_origin_key': 'quarantine', 'vlan-name': 'quarantine'}]
+    Untagged VLANs: [{'q_origin_key': 'quarantine', 'vlan-name': 'quarantine'}]
+    MAC Address: 00:00:00:00:00:00
+    Export to: root
+
+  Port Name: port4
+    VLAN: _default
+    STATUS: up
+    Allowed VLANs: [{'q_origin_key': 'quarantine', 'vlan-name': 'quarantine'}]
+    Untagged VLANs: [{'q_origin_key': 'quarantine', 'vlan-name': 'quarantine'}]
+    MAC Address: 00:00:00:00:00:00
+    Export to: root
+
+  Port Name: port5
+    VLAN: _default
+    STATUS: up
+    Allowed VLANs: [{'q_origin_key': 'quarantine', 'vlan-name': 'quarantine'}]
+    Untagged VLANs: [{'q_origin_key': 'quarantine', 'vlan-name': 'quarantine'}]
+    MAC Address: 00:00:00:00:00:00
+    Export to: root
+
+  Port Name: port6
+    VLAN: _default
+    STATUS: up
+    Allowed VLANs: [{'q_origin_key': 'quarantine', 'vlan-name': 'quarantine'}]
+    Untagged VLANs: [{'q_origin_key': 'quarantine', 'vlan-name': 'quarantine'}]
+    MAC Address: 00:00:00:00:00:00
+    Export to: root
+
+  Port Name: port7
+    VLAN: _default
+    STATUS: up
+    Allowed VLANs: [{'q_origin_key': 'quarantine', 'vlan-name': 'quarantine'}]
+    Untagged VLANs: [{'q_origin_key': 'quarantine', 'vlan-name': 'quarantine'}]
+    MAC Address: 00:00:00:00:00:00
+    Export to: root
+
+  Port Name: port8
+    VLAN: _default
+    STATUS: up
+    Allowed VLANs: [{'q_origin_key': 'quarantine', 'vlan-name': 'quarantine'}]
+    Untagged VLANs: [{'q_origin_key': 'quarantine', 'vlan-name': 'quarantine'}]
+    MAC Address: 00:00:00:00:00:00
+    Export to: root
+
+  Port Name: port9
+    VLAN: _default
+    STATUS: up
+    Allowed VLANs: [{'q_origin_key': 'quarantine', 'vlan-name': 'quarantine'}]
+    Untagged VLANs: [{'q_origin_key': 'quarantine', 'vlan-name': 'quarantine'}]
+    MAC Address: 00:00:00:00:00:00
+    Export to: root
+
+  Port Name: port10
+    VLAN: _default
+    STATUS: up
+    Allowed VLANs: [{'q_origin_key': 'quarantine', 'vlan-name': 'quarantine'}]
+    Untagged VLANs: [{'q_origin_key': 'quarantine', 'vlan-name': 'quarantine'}]
+    MAC Address: 00:00:00:00:00:00
+    Export to: root
+
+  Port Name: port11
+    VLAN: _default
+    STATUS: up
+    Allowed VLANs: [{'q_origin_key': 'quarantine', 'vlan-name': 'quarantine'}]
+    Untagged VLANs: [{'q_origin_key': 'quarantine', 'vlan-name': 'quarantine'}]
+    MAC Address: 00:00:00:00:00:00
+    Export to: root
+
+  Port Name: port12
+    VLAN: _default
+    STATUS: up
+    Allowed VLANs: [{'q_origin_key': 'quarantine', 'vlan-name': 'quarantine'}]
+    Untagged VLANs: [{'q_origin_key': 'quarantine', 'vlan-name': 'quarantine'}]
+    MAC Address: 00:00:00:00:00:00
+    Export to: root
+
+  Port Name: port13
+    VLAN: _default
+    STATUS: up
+    Allowed VLANs: [{'q_origin_key': 'quarantine', 'vlan-name': 'quarantine'}]
+    Untagged VLANs: [{'q_origin_key': 'quarantine', 'vlan-name': 'quarantine'}]
+    MAC Address: 00:00:00:00:00:00
+    Export to: root
+
+  Port Name: port14
+    VLAN: _default
+    STATUS: up
+    Allowed VLANs: [{'q_origin_key': 'quarantine', 'vlan-name': 'quarantine'}]
+    Untagged VLANs: [{'q_origin_key': 'quarantine', 'vlan-name': 'quarantine'}]
+    MAC Address: 00:00:00:00:00:00
+    Export to: root
+
+  Port Name: port15
+    VLAN: _default
+    STATUS: up
+    Allowed VLANs: [{'q_origin_key': 'quarantine', 'vlan-name': 'quarantine'}]
+    Untagged VLANs: [{'q_origin_key': 'quarantine', 'vlan-name': 'quarantine'}]
+    MAC Address: 00:00:00:00:00:00
+    Export to: root
+
+  Port Name: port16
+    VLAN: _default
+    STATUS: up
+    Allowed VLANs: [{'q_origin_key': 'quarantine', 'vlan-name': 'quarantine'}]
+    Untagged VLANs: [{'q_origin_key': 'quarantine', 'vlan-name': 'quarantine'}]
+    MAC Address: 00:00:00:00:00:00
+    Export to: root
+
+  Port Name: port17
+    VLAN: _default
+    STATUS: up
+    Allowed VLANs: [{'q_origin_key': 'quarantine', 'vlan-name': 'quarantine'}]
+    Untagged VLANs: [{'q_origin_key': 'quarantine', 'vlan-name': 'quarantine'}]
+    MAC Address: 00:00:00:00:00:00
+    Export to: root
+
+  Port Name: port18
+    VLAN: _default
+    STATUS: up
+    Allowed VLANs: [{'q_origin_key': 'quarantine', 'vlan-name': 'quarantine'}]
+    Untagged VLANs: [{'q_origin_key': 'quarantine', 'vlan-name': 'quarantine'}]
+    MAC Address: 00:00:00:00:00:00
+    Export to: root
+
+  Port Name: port19
+    VLAN: _default
+    STATUS: up
+    Allowed VLANs: [{'q_origin_key': 'quarantine', 'vlan-name': 'quarantine'}]
+    Untagged VLANs: [{'q_origin_key': 'quarantine', 'vlan-name': 'quarantine'}]
+    MAC Address: 00:00:00:00:00:00
+    Export to: root
+
+  Port Name: port20
+    VLAN: _default
+    STATUS: up
+    Allowed VLANs: [{'q_origin_key': 'quarantine', 'vlan-name': 'quarantine'}]
+    Untagged VLANs: [{'q_origin_key': 'quarantine', 'vlan-name': 'quarantine'}]
+    MAC Address: 00:00:00:00:00:00
+    Export to: root
+
+  Port Name: port21
+    VLAN: _default
+    STATUS: up
+    Allowed VLANs: [{'q_origin_key': 'quarantine', 'vlan-name': 'quarantine'}]
+    Untagged VLANs: [{'q_origin_key': 'quarantine', 'vlan-name': 'quarantine'}]
+    MAC Address: 00:00:00:00:00:00
+    Export to: root
+
+  Port Name: port22
+    VLAN: _default
+    STATUS: up
+    Allowed VLANs: [{'q_origin_key': 'quarantine', 'vlan-name': 'quarantine'}]
+    Untagged VLANs: [{'q_origin_key': 'quarantine', 'vlan-name': 'quarantine'}]
+    MAC Address: 00:00:00:00:00:00
+    Export to: root
+
+  Port Name: port23
+    VLAN: _default
+    STATUS: up
+    Allowed VLANs: [{'q_origin_key': 'quarantine', 'vlan-name': 'quarantine'}]
+    Untagged VLANs: [{'q_origin_key': 'quarantine', 'vlan-name': 'quarantine'}]
+    MAC Address: 00:00:00:00:00:00
+    Export to: root
+
+  Port Name: port24
+    VLAN: _default
+    STATUS: up
+    Allowed VLANs: [{'q_origin_key': 'quarantine', 'vlan-name': 'quarantine'}]
+    Untagged VLANs: [{'q_origin_key': 'quarantine', 'vlan-name': 'quarantine'}]
+    MAC Address: 00:00:00:00:00:00
+    Export to: root
+
+  Port Name: port25
+    VLAN: _default
+    STATUS: up
+    Allowed VLANs: [{'q_origin_key': 'quarantine', 'vlan-name': 'quarantine'}]
+    Untagged VLANs: [{'q_origin_key': 'quarantine', 'vlan-name': 'quarantine'}]
+    MAC Address: 00:00:00:00:00:00
+    Export to: root
+
+  Port Name: port26
+    VLAN: _default
+    STATUS: up
+    Allowed VLANs: [{'q_origin_key': 'quarantine', 'vlan-name': 'quarantine'}]
+    Untagged VLANs: [{'q_origin_key': 'quarantine', 'vlan-name': 'quarantine'}]
+    MAC Address: 00:00:00:00:00:00
+    Export to: root
+
+  Port Name: port27
+    VLAN: _default
+    STATUS: up
+    Allowed VLANs: [{'q_origin_key': 'quarantine', 'vlan-name': 'quarantine'}]
+    Untagged VLANs: [{'q_origin_key': 'quarantine', 'vlan-name': 'quarantine'}]
+    MAC Address: 00:00:00:00:00:00
+    Export to: root
+
+  Port Name: port28
+    VLAN: _default
+    STATUS: up
+    Allowed VLANs: [{'q_origin_key': 'quarantine', 'vlan-name': 'quarantine'}]
+    Untagged VLANs: [{'q_origin_key': 'quarantine', 'vlan-name': 'quarantine'}]
+    MAC Address: 00:00:00:00:00:00
+    Export to: root
+
+
