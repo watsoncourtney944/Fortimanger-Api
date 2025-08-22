@@ -1,16 +1,14 @@
 import requests
 import json
 import sys
+from dotenv import load_dotenv
+import os
 
-#FortiManager details
-#fortimanager_ip = "62.173.224.228"
-#fortimanager_ip = "31.121.39.180"
-#api_token = "7cjfoq9y5ns3854r3ciwfka4mji54773"
-#adom = "SANUK"  # Specify the ADOM name
-#device_name = "sanuk-d1-0163-gh-001"  # Specify the device name or serial number
-fortimanager_ip = "10.80.29.30"
-api_token = "rj3kqezwscqbzewru3eg3spntn16d465"
-adom = "GLOBAL_LAB"  # Specify the ADOM name
+load_dotenv()  # Loads environment variables from .env
+
+fortimanager_ip = os.getenv("FORTIMANAGER_IP")
+api_token = os.getenv("API_TOKEN")
+adom = os.getenv("ADOM")
 device_name = "SPOKE4-FGT-01"  # Specify the device name or serial number
 api_url = f"https://{fortimanager_ip}/jsonrpc"
 

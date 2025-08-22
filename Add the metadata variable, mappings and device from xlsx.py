@@ -2,12 +2,17 @@ import requests
 import json
 import pandas as pd  # Import pandas to read Excel files
 import urllib3
+from dotenv import load_dotenv
+import os
+
+# Load environment variables from .env
+load_dotenv()
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 # FortiManager details
-fortimanager_ip = "10.80.29.30"
-api_token = "q1t8ztis1yi7iqz3te1s1yard67xrkx6"  # Replace with a valid token
-adom = "NGDSTesting"  # Specify the ADOM name
+fortimanager_ip = os.getenv("FORTIMANAGER_IP")
+api_token = os.getenv("API_TOKEN")
+adom = os.getenv("ADOM")
 api_url = f"https://{fortimanager_ip}/jsonrpc"
 
 # Define headers with API token

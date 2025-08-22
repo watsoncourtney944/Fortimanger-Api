@@ -1,13 +1,18 @@
 import requests
 import json
 import urllib3
+from dotenv import load_dotenv
+import os
+
+# Load environment variables from .env
+load_dotenv()
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 # FortiManager details
-fortimanager_ip = "10.80.29.30"
-api_token = "yy1uehcg9fxgyn4tann3gbkzzr7gdkyy"  # Replace with a valid token
-adom = "NGDSTesting"
+fortimanager_ip = os.getenv("FORTIMANAGER_IP")
+api_token = os.getenv("API_TOKEN")
+adom = os.getenv("ADOM")
 api_url = f"https://{fortimanager_ip}/jsonrpc"
 
 # Define headers with API token

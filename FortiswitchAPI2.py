@@ -2,11 +2,15 @@ import requests
 import json
 import sys
 import openpyxl
+from dotenv import load_dotenv
+import os
+
+load_dotenv()  # Loads environment variables from .env
 
 # FortiManager details
-fortimanager_ip = "10.80.29.30"
-api_token = "o8fguepoitiiwusgm5rk4fk9osfwkosk"
-adom = "GLOBAL_LAB"  # Specify the ADOM name
+fortimanager_ip = os.getenv("FORTIMANAGER_IP")
+api_token = os.getenv("API_TOKEN")
+adom = os.getenv("ADOM")
 device_name = "SPOKE4-FGT-01"  # Specify the device name or serial number
 api_url = f"https://{fortimanager_ip}/jsonrpc"
 headers = {

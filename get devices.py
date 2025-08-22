@@ -1,11 +1,14 @@
 import requests
 import json
-import os
 from dotenv import load_dotenv
+import os
 
-load_dotenv()  # Load variables from .env
+load_dotenv()  # Loads environment variables from .env
 
 # FortiManager details
+fortimanager_ip = os.getenv("FORTIMANAGER_IP")
+api_token = os.getenv("API_TOKEN")
+adom = os.getenv("ADOM")
 fortimanager_ip = os.getenv("FORTIMANAGER_IP")
 api_token = os.getenv("API_TOKEN")
 adom = os.getenv("ADOM")

@@ -1,14 +1,15 @@
+from dotenv import load_dotenv
+import os
 import requests
 import json
 import pandas as pd
 import urllib3
 
-urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+load_dotenv()  # Loads environment variables from .env
 
-# FortiManager details
-fortimanager_ip = "10.80.29.30"
-api_token = "yy1uehcg9fxgyn4tann3gbkzzr7gdkyy"  # Replace with a valid token
-adom = "GLOBAL_LAB"
+fortimanager_ip = os.getenv("FORTIMANAGER_IP")
+api_token = os.getenv("API_TOKEN")
+adom = os.getenv("ADOM")
 api_url = f"https://{fortimanager_ip}/jsonrpc"
 
 # Define headers with API token
@@ -16,6 +17,8 @@ headers = {
     "Authorization": f"Bearer {api_token}",
     "Content-Type": "application/json"
 }
+
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 def update_metadata_variable(adom, api_url, headers, existing_variable_name, new_variable_name, new_value, description):
     # Prepare the payload to update the metadata variable based on the existing variable name

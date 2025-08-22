@@ -1,9 +1,13 @@
 import requests
 import json
+from dotenv import load_dotenv
+import os
 
-fortimanager_ip = "10.80.29.30"
-api_token = "yy1uehcg9fxgyn4tann3gbkzzr7gdkyy"
+load_dotenv()  # Loads environment variables from .env
 
+fortimanager_ip = os.getenv("FORTIMANAGER_IP")
+api_token = os.getenv("API_TOKEN")
+adom = os.getenv("ADOM")
 api_url = f"https://{fortimanager_ip}/jsonrpc"
 headers = {
     "Authorization": f"Bearer {api_token}",

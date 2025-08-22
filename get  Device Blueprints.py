@@ -1,11 +1,15 @@
 import requests
 import json
 import sys
+from dotenv import load_dotenv
+import os
+
+load_dotenv()  # Loads environment variables from .env
 
 # FortiManager details
-fortimanager_ip = "10.80.29.30"
-api_token = "upzt9n3x3thi1s4cji4r758j9eanfu8b"  # Replace with your actual API token
-adom = "NGDSTesting"  # GLOBAL_LAB Replace with your ADOM
+fortimanager_ip = os.getenv("FORTIMANAGER_IP")
+api_token = os.getenv("API_TOKEN")
+adom = os.getenv("ADOM")
 api_url = f"https://{fortimanager_ip}/jsonrpc"
 
 # Define headers with API token

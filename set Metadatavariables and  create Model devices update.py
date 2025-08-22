@@ -1,15 +1,18 @@
+from dotenv import load_dotenv
+import os
 import requests
 import json
 import pandas as pd
 import urllib3
 
-urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+load_dotenv()  # Loads environment variables from .env
 
-# FortiManager details
-fortimanager_ip = "10.80.29.30"
-api_token = "q1t8ztis1yi7iqz3te1s1yard67xrkx6"  # Replace with a valid token
-adom = "NGDSTesting"
+fortimanager_ip = os.getenv("FORTIMANAGER_IP")
+api_token = os.getenv("API_TOKEN")
+adom = os.getenv("ADOM")
 api_url = f"https://{fortimanager_ip}/jsonrpc"
+
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 # Define headers with API token
 headers = {
