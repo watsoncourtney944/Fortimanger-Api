@@ -6,4 +6,5 @@ load_dotenv()  # Loads environment variables from .env
 fortimanager_ip = os.getenv("FORTIMANAGER_IP")
 api_token = os.getenv("API_TOKEN")
 adom = os.getenv("ADOM")
+device_name= os.getenv("Device")
 api_url = f"https://{fortimanager_ip}/jsonrpc"

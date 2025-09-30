@@ -9,7 +9,7 @@ load_dotenv()  # Loads environment variables from .env
 fortimanager_ip = os.getenv("FORTIMANAGER_IP")
 api_token = os.getenv("API_TOKEN")
 adom = os.getenv("ADOM")
-device_name = "SPOKE4-FGT-01"  # Specify the device name or serial number
+device_name = os.getenv("Device") # Specify the device name or serial number
 api_url = f"https://{fortimanager_ip}/jsonrpc"
 
 
