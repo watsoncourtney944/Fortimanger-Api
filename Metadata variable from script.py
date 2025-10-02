@@ -63,8 +63,8 @@ def process_metadata(metadata_list):
 
 # Example metadata list
 metadata_list = [
-    {"VariableName": "SiteIP", "VariableValue": "192.168.1.1", "Description": "IP address for site A"},
-    {"VariableName": "Gateway", "VariableValue": "192.168.1.254", "Description": "Default gateway for site A"}
+    {"VariableName": "SiteIP", "VariableValue": "", "Description": "IP address for site A"},
+    {"VariableName": "Gateway", "VariableValue": "", "Description": "Default gateway for site A"}
 ]
 
 # Run the metadata processing
