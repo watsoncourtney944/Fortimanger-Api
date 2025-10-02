@@ -53,8 +53,8 @@ def add_metadata_variable(adom, api_url, headers, variable_name, new_value, desc
 
 def create_model_device(adom, device_name, hwmodel, psk, description, api_url, headers):
     payload = {
-        "client": "gui json:23235",
-        "id": "57337fc8-5029-4458-b100-18cddddb707b",  # Unique ID for this request
+        "client": "",
+        "id": "",  # Unique ID for this request
         "keep_session_idle": 1,
         "method": "exec",
         "params": [
